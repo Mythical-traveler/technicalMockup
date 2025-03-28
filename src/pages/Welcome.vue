@@ -1,5 +1,5 @@
 <script setup>
-import sigil from '../assets/friendly.png'
+const sigil = new URL('../assets/friendly.png', import.meta.url).href
 </script>
 
 
