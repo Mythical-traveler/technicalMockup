@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Welcome from '../pages/welcome.vue'
-import Notes from '../pages/Notes.vue'
-import MoodBoard from '../pages/Moodboard.vue'
+import Welcome from './pages/Welcome.vue'
+import Notes from './pages/Notes.vue'
+import MoodBoard from './pages/Moodboard.vue'
 
 const routes = [
   { path: '/', component: Welcome },
